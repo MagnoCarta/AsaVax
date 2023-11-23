@@ -22,6 +22,8 @@
 		49A545992B0F07720050A416 /* Atividades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A545982B0F07720050A416 /* Atividades.swift */; };
 		49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */; };
 		4C6DEEC92B0F039100260F16 /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DEEC82B0F039100260F16 /* CadastroView.swift */; };
+		4C6DEECE2B0F2FF500260F16 /* EditarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DEECD2B0F2FF500260F16 /* EditarView.swift */; };
+		4C6DEED22B0F303700260F16 /* EditarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DEED12B0F303700260F16 /* EditarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		49A545982B0F07720050A416 /* Atividades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atividades.swift; sourceTree = "<group>"; };
 		49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
 		4C6DEEC82B0F039100260F16 /* CadastroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
+		4C6DEECD2B0F2FF500260F16 /* EditarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarView.swift; sourceTree = "<group>"; };
+		4C6DEED12B0F303700260F16 /* EditarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +152,7 @@
 		0F964CA82B0EDA15007CD2A9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				0F964CC42B0F2F47007CD2A9 /* ListaTarefas */,
+				4C6DEECC2B0F2FA900260F16 /* Editar Telas */,
 				0DD039712B0F00F700226D70 /* Listas de Cards */,
 				0F964CBC2B0EF927007CD2A9 /* Cadastro */,
 			);
@@ -217,6 +221,31 @@
 				4C6DEEC82B0F039100260F16 /* CadastroView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4C6DEECC2B0F2FA900260F16 /* Editar Telas */ = {
+			isa = PBXGroup;
+			children = (
+				4C6DEECF2B0F300100260F16 /* View */,
+				4C6DEED02B0F301900260F16 /* ViewModel */,
+			);
+			path = "Editar Telas";
+			sourceTree = "<group>";
+		};
+		4C6DEECF2B0F300100260F16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C6DEECD2B0F2FF500260F16 /* EditarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C6DEED02B0F301900260F16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C6DEED12B0F303700260F16 /* EditarViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,10 +332,12 @@
 				0F964CAD2B0EDB2B007CD2A9 /* StructDecoder.swift in Sources */,
 				0F964CCA2B0F2FF0007CD2A9 /* Tarefa.swift in Sources */,
 				0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */,
+				4C6DEED22B0F303700260F16 /* EditarViewModel.swift in Sources */,
 				0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */,
 				0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */,
 				49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */,
 				0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */,
+				4C6DEECE2B0F2FF500260F16 /* EditarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
