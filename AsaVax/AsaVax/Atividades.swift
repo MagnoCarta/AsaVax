@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct Atividades: View {
+    @State private var selectedTab = 0
     var body: some View {
+        
         VStack(alignment: .leading) {
             
             HStack{
@@ -39,12 +41,11 @@ struct Atividades: View {
                 
                 //Inserir aqui o componente quando marcado concluído
                 
-                
+
             }
             
-            //Touch Bar
-            
-        } .background(Color("Background"))
+        }.background(Color("Background"))
+
     }
 }
 
