@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct Tarefa: StructDecoder {
+struct Tarefa: StructDecoder, Identifiable {
+    var id: String { self.title }
+    
     static var entityName: String = "TarefaModel"
     
     var title: String
@@ -16,6 +18,8 @@ struct Tarefa: StructDecoder {
     var date: Date
     var lembrete: String
     var descricao: String
+    var isConcluded: Bool
+    
 }
 
 enum TipoDeAtividade: String {

@@ -54,7 +54,8 @@ class CoreDataService {
                    tipoDeAtividade: TipoDeAtividade(rawValue: $0.tipoDeAtividade ?? "consulta") ?? .consulta,
                    date: $0.date ?? Date(),
                    lembrete: $0.lembrete ?? "",
-                   descricao: $0.descricao ?? "")
+                   descricao: $0.descricao ?? "",
+                   isConcluded: $0.isConcluded)
         })
         return convertedEntities
     }

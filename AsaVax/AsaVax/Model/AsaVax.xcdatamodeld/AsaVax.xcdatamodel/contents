@@ -15,6 +15,7 @@
     <entity name="TarefaModel" representedClassName="TarefaModel" syncable="YES" codeGenerationType="class">
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="descricao" optional="YES" attributeType="String"/>
+        <attribute name="isConcluded" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="lembrete" optional="YES" attributeType="String" customClassName="Lembrete"/>
         <attribute name="lote" optional="YES" attributeType="String" customClassName="Batch"/>
         <attribute name="tipoDeAtividade" optional="YES" attributeType="String"/>

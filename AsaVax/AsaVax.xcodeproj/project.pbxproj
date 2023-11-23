@@ -19,6 +19,18 @@
 		0F964CBB2B0EF0BD007CD2A9 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 0F964CBA2B0EF0BD007CD2A9 /* Flow */; };
 		0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */; };
 		0F964CCA2B0F2FF0007CD2A9 /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CC92B0F2FF0007CD2A9 /* Tarefa.swift */; };
+		0F964CCC2B0F40AB007CD2A9 /* ListaTarefasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CCB2B0F40AB007CD2A9 /* ListaTarefasView.swift */; };
+		0F964CCE2B0F410C007CD2A9 /* ListaTarefasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CCD2B0F410C007CD2A9 /* ListaTarefasViewModel.swift */; };
+		0F964CD12B0F46D0007CD2A9 /* CardTarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CD02B0F46D0007CD2A9 /* CardTarefa.swift */; };
+		0F964CDD2B0F55C0007CD2A9 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F964CDA2B0F51D4007CD2A9 /* Inter-ExtraLight.ttf */; };
+		0F964CDE2B0F55C0007CD2A9 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F964CDC2B0F51D4007CD2A9 /* Inter-Medium.ttf */; };
+		0F964CDF2B0F55C0007CD2A9 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F964CD72B0F51D4007CD2A9 /* Inter-Black.ttf */; };
+		0F964CE02B0F55C0007CD2A9 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F964CD92B0F51D4007CD2A9 /* Inter-Light.ttf */; };
+		0F964CE12B0F55C0007CD2A9 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F964CD42B0F51D4007CD2A9 /* Inter-SemiBold.ttf */; };
+		0F964CE22B0F55C0007CD2A9 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F964CD82B0F51D4007CD2A9 /* Inter-Thin.ttf */; };
+		0F964CE32B0F55C0007CD2A9 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F964CD62B0F51D4007CD2A9 /* Inter-Regular.ttf */; };
+		0F964CE42B0F55C0007CD2A9 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F964CDB2B0F51D4007CD2A9 /* Inter-ExtraBold.ttf */; };
+		0F964CE52B0F55C0007CD2A9 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F964CD52B0F51D4007CD2A9 /* Inter-Bold.ttf */; };
 		49A545992B0F07720050A416 /* Atividades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A545982B0F07720050A416 /* Atividades.swift */; };
 		49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */; };
 		4C6DEEC92B0F039100260F16 /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DEEC82B0F039100260F16 /* CadastroView.swift */; };
@@ -37,6 +49,19 @@
 		0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringDate+Convert.swift"; sourceTree = "<group>"; };
 		0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewModel.swift; sourceTree = "<group>"; };
 		0F964CC92B0F2FF0007CD2A9 /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
+		0F964CCB2B0F40AB007CD2A9 /* ListaTarefasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTarefasView.swift; sourceTree = "<group>"; };
+		0F964CCD2B0F410C007CD2A9 /* ListaTarefasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTarefasViewModel.swift; sourceTree = "<group>"; };
+		0F964CD02B0F46D0007CD2A9 /* CardTarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTarefa.swift; sourceTree = "<group>"; };
+		0F964CD22B0F51B9007CD2A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0F964CD42B0F51D4007CD2A9 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		0F964CD52B0F51D4007CD2A9 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Bold.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		0F964CD62B0F51D4007CD2A9 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		0F964CD72B0F51D4007CD2A9 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Black.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Black.ttf"; sourceTree = "<group>"; };
+		0F964CD82B0F51D4007CD2A9 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Thin.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		0F964CD92B0F51D4007CD2A9 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Light.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Light.ttf"; sourceTree = "<group>"; };
+		0F964CDA2B0F51D4007CD2A9 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-ExtraLight.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0F964CDB2B0F51D4007CD2A9 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-ExtraBold.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0F964CDC2B0F51D4007CD2A9 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		49A545982B0F07720050A416 /* Atividades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atividades.swift; sourceTree = "<group>"; };
 		49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
 		4C6DEEC82B0F039100260F16 /* CadastroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
@@ -81,6 +106,7 @@
 		0F964C942B0ED9B3007CD2A9 /* AsaVax */ = {
 			isa = PBXGroup;
 			children = (
+				0F964CD22B0F51B9007CD2A9 /* Info.plist */,
 				49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */,
 				49A545982B0F07720050A416 /* Atividades.swift */,
 				0F964CA82B0EDA15007CD2A9 /* Features */,
@@ -140,6 +166,7 @@
 		0F964CA72B0EDA06007CD2A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F964CD32B0F51C3007CD2A9 /* Fontes */,
 				0F964C992B0ED9B4007CD2A9 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -183,6 +210,7 @@
 		0F964CC42B0F2F47007CD2A9 /* ListaTarefas */ = {
 			isa = PBXGroup;
 			children = (
+				0F964CCF2B0F46BB007CD2A9 /* Components */,
 				0F964CC82B0F2FAC007CD2A9 /* View */,
 				0F964CC72B0F2F5B007CD2A9 /* ViewModel */,
 			);
@@ -192,6 +220,7 @@
 		0F964CC72B0F2F5B007CD2A9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0F964CCD2B0F410C007CD2A9 /* ListaTarefasViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -199,8 +228,33 @@
 		0F964CC82B0F2FAC007CD2A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F964CCB2B0F40AB007CD2A9 /* ListaTarefasView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0F964CCF2B0F46BB007CD2A9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CD02B0F46D0007CD2A9 /* CardTarefa.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0F964CD32B0F51C3007CD2A9 /* Fontes */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CD72B0F51D4007CD2A9 /* Inter-Black.ttf */,
+				0F964CD52B0F51D4007CD2A9 /* Inter-Bold.ttf */,
+				0F964CDB2B0F51D4007CD2A9 /* Inter-ExtraBold.ttf */,
+				0F964CDA2B0F51D4007CD2A9 /* Inter-ExtraLight.ttf */,
+				0F964CD92B0F51D4007CD2A9 /* Inter-Light.ttf */,
+				0F964CDC2B0F51D4007CD2A9 /* Inter-Medium.ttf */,
+				0F964CD62B0F51D4007CD2A9 /* Inter-Regular.ttf */,
+				0F964CD42B0F51D4007CD2A9 /* Inter-SemiBold.ttf */,
+				0F964CD82B0F51D4007CD2A9 /* Inter-Thin.ttf */,
+			);
+			path = Fontes;
 			sourceTree = "<group>";
 		};
 		4C6DEECA2B0F039E00260F16 /* ViewModel */ = {
@@ -283,8 +337,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F964CDE2B0F55C0007CD2A9 /* Inter-Medium.ttf in Resources */,
+				0F964CE32B0F55C0007CD2A9 /* Inter-Regular.ttf in Resources */,
+				0F964CE52B0F55C0007CD2A9 /* Inter-Bold.ttf in Resources */,
 				0F964C9D2B0ED9B4007CD2A9 /* Preview Assets.xcassets in Resources */,
+				0F964CDF2B0F55C0007CD2A9 /* Inter-Black.ttf in Resources */,
+				0F964CDD2B0F55C0007CD2A9 /* Inter-ExtraLight.ttf in Resources */,
+				0F964CE42B0F55C0007CD2A9 /* Inter-ExtraBold.ttf in Resources */,
+				0F964CE22B0F55C0007CD2A9 /* Inter-Thin.ttf in Resources */,
+				0F964CE02B0F55C0007CD2A9 /* Inter-Light.ttf in Resources */,
 				0F964C9A2B0ED9B4007CD2A9 /* Assets.xcassets in Resources */,
+				0F964CE12B0F55C0007CD2A9 /* Inter-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,10 +363,13 @@
 				4C6DEEC92B0F039100260F16 /* CadastroView.swift in Sources */,
 				0F964CAB2B0EDAEA007CD2A9 /* CoreDataService.swift in Sources */,
 				49A545992B0F07720050A416 /* Atividades.swift in Sources */,
+				0F964CCE2B0F410C007CD2A9 /* ListaTarefasViewModel.swift in Sources */,
 				0F964CAD2B0EDB2B007CD2A9 /* StructDecoder.swift in Sources */,
 				0F964CCA2B0F2FF0007CD2A9 /* Tarefa.swift in Sources */,
+				0F964CD12B0F46D0007CD2A9 /* CardTarefa.swift in Sources */,
 				0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */,
 				0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */,
+				0F964CCC2B0F40AB007CD2A9 /* ListaTarefasView.swift in Sources */,
 				0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */,
 				49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */,
 				0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */,
@@ -442,6 +508,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AsaVax/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsaVax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -470,6 +537,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AsaVax/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsaVax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
