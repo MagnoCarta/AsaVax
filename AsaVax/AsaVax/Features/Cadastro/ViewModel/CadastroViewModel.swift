@@ -6,10 +6,12 @@
 //
 
 import Foundation
+import Observation
 
-struct CadastroViewModel {
+@Observable
+class CadastroViewModel {
     
-    var batch: Batch
+    private var batch: Batch
     var editedBatch: Batch
     var coredataService: CoreDataService = .shared
     
@@ -17,6 +19,13 @@ struct CadastroViewModel {
         self.batch = batch
         self.editedBatch = batch
     }
+    
+    init() {
+        self.batch = .init(name: "", date: Date(), numberBought: "", vaxDone: [], medicineApplied: [], absoluteMortality: 1, tipo: .corte, genero: .femea)
+        self.editedBatch = .init(name: "", date: Date(), numberBought: "", vaxDone: [], medicineApplied: [], absoluteMortality: 1, tipo: .corte, genero: .femea)
+        
+    }
+    
     
     func editBatch() {
         var batchs = Set(coredataService.getBatchs())

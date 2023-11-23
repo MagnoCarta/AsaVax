@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct AsaVaxApp: App {
+    
+    @State var a: Bool = true
     var body: some Scene {
         WindowGroup {
-            EmptyView()
+            Text("a")
+                .sheet(isPresented: $a) {
+                    CadastroView(viewModel: .init())
+                }
         }
     }
 }

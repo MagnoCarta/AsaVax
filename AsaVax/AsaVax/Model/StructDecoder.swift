@@ -59,11 +59,19 @@ extension StructDecoder {
             }
             if let attribute = managedObject.entity.attributesByName[label] {
                 if attribute.isOptional {
-                    managedObject.setValue(anyValue, forKey: label)
+                    if subMirror.displayStyle == .enum {
+                        managedObject.setValue((anyValue as! any RawRepresentable as any RawRepresentable).rawValue, forKey: label)
+                    } else {
+                        managedObject.setValue(anyValue, forKey: label)
+                    }
                 } else {
                     if !isItNil(value: anyValue,
                                 attribute: attributeTypes[attribute.attributeType]) {
-                        managedObject.setValue(anyValue, forKey: label)
+                        if subMirror.displayStyle == .enum {
+                            managedObject.setValue((anyValue as! any RawRepresentable as any RawRepresentable).rawValue, forKey: label)
+                        } else {
+                            managedObject.setValue(anyValue, forKey: label)
+                        }
                     }
                 }
             }

@@ -11,13 +11,26 @@ struct Batch: StructDecoder, Hashable {
     static var entityName: String = "BatchModel"
     
     var name: String
-    var date: String
-    var numberBought: Int
+    var date: Date
+    var numberBought: String
     var vaxDone: [String]
     var medicineApplied: [String]
     var mortalityFrequency: Int = 1
-    var absoluteMortality: Int
-    var mortalityRate: Double { Double(absoluteMortality/Calendar.current.numberOfDaysBetween(date.dateFromISOFormatString() ?? .now, and: .now))
+    var absoluteMortality: Int = 0
+    var tipo: TipoDoLote
+    var genero: Genero
+    var mortalityRate: Double { Double(absoluteMortality/Calendar.current.numberOfDaysBetween(date, and: .now))
     }
     
+}
+
+enum TipoDoLote: String, CaseIterable {
+    case poedeira
+    case corte
+}
+
+enum Genero: String, CaseIterable {
+    case misto
+    case femea
+    case macho
 }
