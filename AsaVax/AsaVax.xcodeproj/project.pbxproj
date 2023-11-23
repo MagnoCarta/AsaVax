@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DD039752B0F01BB00226D70 /* CardLotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD039742B0F01BB00226D70 /* CardLotes.swift */; };
 		0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964C952B0ED9B3007CD2A9 /* AsaVaxApp.swift */; };
 		0F964C9A2B0ED9B4007CD2A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F964C992B0ED9B4007CD2A9 /* Assets.xcassets */; };
 		0F964C9D2B0ED9B4007CD2A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F964C9C2B0ED9B4007CD2A9 /* Preview Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DD039742B0F01BB00226D70 /* CardLotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLotes.swift; sourceTree = "<group>"; };
 		0F964C922B0ED9B3007CD2A9 /* AsaVax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsaVax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F964C952B0ED9B3007CD2A9 /* AsaVaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsaVaxApp.swift; sourceTree = "<group>"; };
 		0F964C992B0ED9B4007CD2A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DD039712B0F00F700226D70 /* Listas de Cards */ = {
+			isa = PBXGroup;
+			children = (
+				0DD039742B0F01BB00226D70 /* CardLotes.swift */,
+			);
+			path = "Listas de Cards";
+			sourceTree = "<group>";
+		};
 		0F964C892B0ED9B3007CD2A9 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 		0F964CA82B0EDA15007CD2A9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0DD039712B0F00F700226D70 /* Listas de Cards */,
 				0F964CBC2B0EF927007CD2A9 /* POCCrudEditBatch */,
 				0F964CB62B0EE519007CD2A9 /* FeatureA */,
 			);
@@ -251,6 +262,7 @@
 			files = (
 				0F964CAF2B0EDB99007CD2A9 /* Batch.swift in Sources */,
 				0F964CB82B0EE527007CD2A9 /* placeholder.swift in Sources */,
+				0DD039752B0F01BB00226D70 /* CardLotes.swift in Sources */,
 				0F964CAB2B0EDAEA007CD2A9 /* CoreDataService.swift in Sources */,
 				49A545992B0F07720050A416 /* Atividades.swift in Sources */,
 				0F964CAD2B0EDB2B007CD2A9 /* StructDecoder.swift in Sources */,
