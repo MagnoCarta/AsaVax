@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DD039752B0F01BB00226D70 /* CardLotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD039742B0F01BB00226D70 /* CardLotes.swift */; };
 		0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964C952B0ED9B3007CD2A9 /* AsaVaxApp.swift */; };
 		0F964C9A2B0ED9B4007CD2A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F964C992B0ED9B4007CD2A9 /* Assets.xcassets */; };
 		0F964C9D2B0ED9B4007CD2A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F964C9C2B0ED9B4007CD2A9 /* Preview Assets.xcassets */; };
@@ -15,15 +16,17 @@
 		0F964CAF2B0EDB99007CD2A9 /* Batch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CAE2B0EDB99007CD2A9 /* Batch.swift */; };
 		0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB02B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld */; };
 		0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */; };
-		0F964CB82B0EE527007CD2A9 /* placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB72B0EE527007CD2A9 /* placeholder.swift */; };
 		0F964CBB2B0EF0BD007CD2A9 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 0F964CBA2B0EF0BD007CD2A9 /* Flow */; };
 		0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */; };
+		0F964CCA2B0F2FF0007CD2A9 /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CC92B0F2FF0007CD2A9 /* Tarefa.swift */; };
 		49A545992B0F07720050A416 /* Atividades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A545982B0F07720050A416 /* Atividades.swift */; };
 		49A5459B2B0F242C0050A416 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5459A2B0F242C0050A416 /* TabBar.swift */; };
 		49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */; };
+		4C6DEEC92B0F039100260F16 /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DEEC82B0F039100260F16 /* CadastroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DD039742B0F01BB00226D70 /* CardLotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLotes.swift; sourceTree = "<group>"; };
 		0F964C922B0ED9B3007CD2A9 /* AsaVax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsaVax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F964C952B0ED9B3007CD2A9 /* AsaVaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsaVaxApp.swift; sourceTree = "<group>"; };
 		0F964C992B0ED9B4007CD2A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,11 +36,12 @@
 		0F964CAE2B0EDB99007CD2A9 /* Batch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batch.swift; sourceTree = "<group>"; };
 		0F964CB12B0EDBF7007CD2A9 /* AsaVax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AsaVax.xcdatamodel; sourceTree = "<group>"; };
 		0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringDate+Convert.swift"; sourceTree = "<group>"; };
-		0F964CB72B0EE527007CD2A9 /* placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeholder.swift; sourceTree = "<group>"; };
 		0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewModel.swift; sourceTree = "<group>"; };
+		0F964CC92B0F2FF0007CD2A9 /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
 		49A545982B0F07720050A416 /* Atividades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atividades.swift; sourceTree = "<group>"; };
 		49A5459A2B0F242C0050A416 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
+		4C6DEEC82B0F039100260F16 /* CadastroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DD039712B0F00F700226D70 /* Listas de Cards */ = {
+			isa = PBXGroup;
+			children = (
+				0DD039742B0F01BB00226D70 /* CardLotes.swift */,
+			);
+			path = "Listas de Cards";
+			sourceTree = "<group>";
+		};
 		0F964C892B0ED9B3007CD2A9 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +135,7 @@
 				0F964CAC2B0EDB2B007CD2A9 /* StructDecoder.swift */,
 				0F964CAE2B0EDB99007CD2A9 /* Batch.swift */,
 				0F964CB02B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld */,
+				0F964CC92B0F2FF0007CD2A9 /* Tarefa.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -138,8 +151,9 @@
 		0F964CA82B0EDA15007CD2A9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				0F964CBC2B0EF927007CD2A9 /* POCCrudEditBatch */,
-				0F964CB62B0EE519007CD2A9 /* FeatureA */,
+				0F964CC42B0F2F47007CD2A9 /* ListaTarefas */,
+				0DD039712B0F00F700226D70 /* Listas de Cards */,
+				0F964CBC2B0EF927007CD2A9 /* Cadastro */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -160,20 +174,52 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		0F964CB62B0EE519007CD2A9 /* FeatureA */ = {
+		0F964CBC2B0EF927007CD2A9 /* Cadastro */ = {
 			isa = PBXGroup;
 			children = (
-				0F964CB72B0EE527007CD2A9 /* placeholder.swift */,
+				4C6DEECB2B0F03AA00260F16 /* View */,
+				4C6DEECA2B0F039E00260F16 /* ViewModel */,
 			);
-			path = FeatureA;
+			path = Cadastro;
 			sourceTree = "<group>";
 		};
-		0F964CBC2B0EF927007CD2A9 /* POCCrudEditBatch */ = {
+		0F964CC42B0F2F47007CD2A9 /* ListaTarefas */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CC82B0F2FAC007CD2A9 /* View */,
+				0F964CC72B0F2F5B007CD2A9 /* ViewModel */,
+			);
+			path = ListaTarefas;
+			sourceTree = "<group>";
+		};
+		0F964CC72B0F2F5B007CD2A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F964CC82B0F2FAC007CD2A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C6DEECA2B0F039E00260F16 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */,
 			);
-			path = POCCrudEditBatch;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C6DEECB2B0F03AA00260F16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C6DEEC82B0F039100260F16 /* CadastroView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,10 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F964CAF2B0EDB99007CD2A9 /* Batch.swift in Sources */,
-				0F964CB82B0EE527007CD2A9 /* placeholder.swift in Sources */,
+				0DD039752B0F01BB00226D70 /* CardLotes.swift in Sources */,
+				4C6DEEC92B0F039100260F16 /* CadastroView.swift in Sources */,
 				0F964CAB2B0EDAEA007CD2A9 /* CoreDataService.swift in Sources */,
 				49A545992B0F07720050A416 /* Atividades.swift in Sources */,
 				0F964CAD2B0EDB2B007CD2A9 /* StructDecoder.swift in Sources */,
+				0F964CCA2B0F2FF0007CD2A9 /* Tarefa.swift in Sources */,
 				0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */,
 				0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */,
 				0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */,
