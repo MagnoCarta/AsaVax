@@ -22,7 +22,7 @@ struct ListaTarefasView: View {
                             .padding()
                         VStack(spacing: 32) {
                             AVSection(isConcluded: false, tarefas:  viewModel.tarefasPendentes, isSheeting: $viewModel.isSheeting, tarefaClicada: $viewModel.tarefaClicada)
-                            AVSection(isConcluded: false, tarefas:  viewModel.tarefasConcluidas, isSheeting: $viewModel.isSheeting, tarefaClicada: $viewModel.tarefaClicada)
+                            AVSection(isConcluded: true, tarefas:  viewModel.tarefasConcluidas, isSheeting: $viewModel.isSheeting, tarefaClicada: $viewModel.tarefaClicada)
                         }
                     }
                 }
