@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964C952B0ED9B3007CD2A9 /* AsaVaxApp.swift */; };
+		0F964C9A2B0ED9B4007CD2A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F964C992B0ED9B4007CD2A9 /* Assets.xcassets */; };
+		0F964C9D2B0ED9B4007CD2A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F964C9C2B0ED9B4007CD2A9 /* Preview Assets.xcassets */; };
+		0F964CAB2B0EDAEA007CD2A9 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CAA2B0EDAEA007CD2A9 /* CoreDataService.swift */; };
+		0F964CAD2B0EDB2B007CD2A9 /* StructDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CAC2B0EDB2B007CD2A9 /* StructDecoder.swift */; };
+		0F964CAF2B0EDB99007CD2A9 /* Batch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CAE2B0EDB99007CD2A9 /* Batch.swift */; };
+		0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB02B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld */; };
+		0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */; };
+		0F964CB82B0EE527007CD2A9 /* placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB72B0EE527007CD2A9 /* placeholder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F964C922B0ED9B3007CD2A9 /* AsaVax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsaVax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F964C952B0ED9B3007CD2A9 /* AsaVaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsaVaxApp.swift; sourceTree = "<group>"; };
+		0F964C992B0ED9B4007CD2A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F964C9C2B0ED9B4007CD2A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F964CAA2B0EDAEA007CD2A9 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		0F964CAC2B0EDB2B007CD2A9 /* StructDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDecoder.swift; sourceTree = "<group>"; };
+		0F964CAE2B0EDB99007CD2A9 /* Batch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batch.swift; sourceTree = "<group>"; };
+		0F964CB12B0EDBF7007CD2A9 /* AsaVax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AsaVax.xcdatamodel; sourceTree = "<group>"; };
+		0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringDate+Convert.swift"; sourceTree = "<group>"; };
+		0F964CB72B0EE527007CD2A9 /* placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeholder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F964C8F2B0ED9B3007CD2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F964C892B0ED9B3007CD2A9 = {
+			isa = PBXGroup;
+			children = (
+				0F964C942B0ED9B3007CD2A9 /* AsaVax */,
+				0F964C932B0ED9B3007CD2A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F964C932B0ED9B3007CD2A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F964C922B0ED9B3007CD2A9 /* AsaVax.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F964C942B0ED9B3007CD2A9 /* AsaVax */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CA82B0EDA15007CD2A9 /* Features */,
+				0F964CA72B0EDA06007CD2A9 /* Resources */,
+				0F964CA62B0EDA01007CD2A9 /* Model */,
+				0F964CA52B0ED9F8007CD2A9 /* Utils */,
+				0F964CA42B0ED9EF007CD2A9 /* Services */,
+				0F964CA32B0ED9E9007CD2A9 /* App */,
+				0F964C9B2B0ED9B4007CD2A9 /* Preview Content */,
+			);
+			path = AsaVax;
+			sourceTree = "<group>";
+		};
+		0F964C9B2B0ED9B4007CD2A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F964C9C2B0ED9B4007CD2A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F964CA32B0ED9E9007CD2A9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0F964C952B0ED9B3007CD2A9 /* AsaVaxApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0F964CA42B0ED9EF007CD2A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CA92B0EDA72007CD2A9 /* CoreData */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0F964CA52B0ED9F8007CD2A9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CB32B0EDF67007CD2A9 /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0F964CA62B0EDA01007CD2A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CAC2B0EDB2B007CD2A9 /* StructDecoder.swift */,
+				0F964CAE2B0EDB99007CD2A9 /* Batch.swift */,
+				0F964CB02B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F964CA72B0EDA06007CD2A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F964C992B0ED9B4007CD2A9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0F964CA82B0EDA15007CD2A9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CB62B0EE519007CD2A9 /* FeatureA */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		0F964CA92B0EDA72007CD2A9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CAA2B0EDAEA007CD2A9 /* CoreDataService.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0F964CB32B0EDF67007CD2A9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0F964CB62B0EE519007CD2A9 /* FeatureA */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CB72B0EE527007CD2A9 /* placeholder.swift */,
+			);
+			path = FeatureA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F964C912B0ED9B3007CD2A9 /* AsaVax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F964CA02B0ED9B4007CD2A9 /* Build configuration list for PBXNativeTarget "AsaVax" */;
+			buildPhases = (
+				0F964C8E2B0ED9B3007CD2A9 /* Sources */,
+				0F964C8F2B0ED9B3007CD2A9 /* Frameworks */,
+				0F964C902B0ED9B3007CD2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsaVax;
+			productName = AsaVax;
+			productReference = 0F964C922B0ED9B3007CD2A9 /* AsaVax.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F964C8A2B0ED9B3007CD2A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0F964C912B0ED9B3007CD2A9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 0F964C8D2B0ED9B3007CD2A9 /* Build configuration list for PBXProject "AsaVax" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F964C892B0ED9B3007CD2A9;
+			productRefGroup = 0F964C932B0ED9B3007CD2A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F964C912B0ED9B3007CD2A9 /* AsaVax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F964C902B0ED9B3007CD2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F964C9D2B0ED9B4007CD2A9 /* Preview Assets.xcassets in Resources */,
+				0F964C9A2B0ED9B4007CD2A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F964C8E2B0ED9B3007CD2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F964CAF2B0EDB99007CD2A9 /* Batch.swift in Sources */,
+				0F964CB82B0EE527007CD2A9 /* placeholder.swift in Sources */,
+				0F964CAB2B0EDAEA007CD2A9 /* CoreDataService.swift in Sources */,
+				0F964CAD2B0EDB2B007CD2A9 /* StructDecoder.swift in Sources */,
+				0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */,
+				0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */,
+				0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F964C9E2B0ED9B4007CD2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F964C9F2B0ED9B4007CD2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F964CA12B0ED9B4007CD2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsaVax/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mag.AsaVax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F964CA22B0ED9B4007CD2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsaVax/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mag.AsaVax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F964C8D2B0ED9B3007CD2A9 /* Build configuration list for PBXProject "AsaVax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F964C9E2B0ED9B4007CD2A9 /* Debug */,
+				0F964C9F2B0ED9B4007CD2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F964CA02B0ED9B4007CD2A9 /* Build configuration list for PBXNativeTarget "AsaVax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F964CA12B0ED9B4007CD2A9 /* Debug */,
+				0F964CA22B0ED9B4007CD2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F964CB02B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F964CB12B0EDBF7007CD2A9 /* AsaVax.xcdatamodel */,
+			);
+			currentVersion = 0F964CB12B0EDBF7007CD2A9 /* AsaVax.xcdatamodel */;
+			path = AsaVax.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F964C8A2B0ED9B3007CD2A9 /* Project object */;
+}
