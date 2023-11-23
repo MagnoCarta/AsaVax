@@ -60,7 +60,15 @@ extension StructDecoder {
             if let attribute = managedObject.entity.attributesByName[label] {
                 if attribute.isOptional {
                     if subMirror.displayStyle == .enum {
-                        managedObject.setValue((anyValue as! any RawRepresentable as any RawRepresentable).rawValue, forKey: label)
+                        if let tipo = TipoDoLote.getRawValue(anyValue) {
+                            managedObject.setValue(tipo , forKey: label)
+                        } else if let tipo = Genero.getRawValue(anyValue) {
+                            managedObject.setValue(tipo , forKey: label)
+                        } else if let tipo = TipoDeAtividade.getRawValue(anyValue) {
+                            managedObject.setValue(tipo , forKey: label)
+                        } else {
+                            managedObject.setValue(anyValue , forKey: label)
+                        }
                     } else {
                         managedObject.setValue(anyValue, forKey: label)
                     }
@@ -68,7 +76,7 @@ extension StructDecoder {
                     if !isItNil(value: anyValue,
                                 attribute: attributeTypes[attribute.attributeType]) {
                         if subMirror.displayStyle == .enum {
-                            managedObject.setValue((anyValue as! any RawRepresentable as any RawRepresentable).rawValue, forKey: label)
+                            managedObject.setValue(anyValue, forKey: label)
                         } else {
                             managedObject.setValue(anyValue, forKey: label)
                         }
@@ -111,4 +119,9 @@ extension StructDecoder {
         return !isItNil
     }
     
+}
+extension RawRepresentable {
+    static func getRawValue(_ value: Any) -> RawValue? {
+        (value as? Self)?.rawValue
+    }
 }

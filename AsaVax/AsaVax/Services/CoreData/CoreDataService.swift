@@ -17,6 +17,7 @@ class CoreDataService {
     
     func saveEntities<T: StructDecoder>(entities: any Sequence<T>) {
         getFetchs().forEach { context.delete($0) }
+        getTarefaFetchs().forEach { context.delete($0) }
         entities.forEach { _ = try? $0.toCoreData(context: context) }
         do {
             try context.save()
@@ -54,7 +55,8 @@ class CoreDataService {
                    tipoDeAtividade: TipoDeAtividade(rawValue: $0.tipoDeAtividade ?? "consulta") ?? .consulta,
                    date: $0.date ?? Date(),
                    lembrete: $0.lembrete ?? "",
-                   descricao: $0.descricao ?? "")
+                   descricao: $0.descricao ?? "",
+                   isConcluded: $0.isConcluded)
         })
         return convertedEntities
     }
@@ -65,8 +67,8 @@ class CoreDataService {
             Batch(name: $0.name ?? "No Name",
                   date: $0.date ?? Date(),
                   numberBought: $0.numberBought ?? "0",
-                  vaxDone: $0.vaxDone ?? [],
-                  medicineApplied: $0.medicineApplied ?? [],
+                  vaxDone: $0.vaxDone ?? "",
+                  medicineApplied: $0.medicineApplied ?? "",
                   absoluteMortality: Int($0.absoluteMortality),
                   tipo: TipoDoLote(rawValue: $0.tipo ?? "corte") ?? .corte,
                   genero: Genero(rawValue: $0.genero ?? "misto") ?? .misto)
@@ -76,6 +78,15 @@ class CoreDataService {
     
     private func getFetchs() -> [BatchModel] {
         let entitiesFetchRequest = getBatchFetchRequest()
+        do {
+            return try context.fetch(entitiesFetchRequest)
+        } catch {
+            return []
+        }
+    }
+    
+    private func getTarefaFetchs() -> [TarefaModel] {
+        let entitiesFetchRequest = getTarefaFetchRequest()
         do {
             return try context.fetch(entitiesFetchRequest)
         } catch {

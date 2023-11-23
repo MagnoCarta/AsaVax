@@ -13,10 +13,7 @@ struct AsaVaxApp: App {
     @State var a: Bool = true
     var body: some Scene {
         WindowGroup {
-            Text("a")
-                .sheet(isPresented: $a) {
-                    EditarView(viewModel: .init())
-                }
+            ListaTarefasView(viewModel: .init())
         }
     }
 }

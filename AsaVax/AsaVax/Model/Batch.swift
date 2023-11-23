@@ -13,8 +13,8 @@ struct Batch: StructDecoder, Hashable {
     var name: String
     var date: Date
     var numberBought: String
-    var vaxDone: [String]
-    var medicineApplied: [String]
+    var vaxDone: String
+    var medicineApplied: String
     var mortalityFrequency: Int = 1
     var absoluteMortality: Int = 0
     var tipo: TipoDoLote

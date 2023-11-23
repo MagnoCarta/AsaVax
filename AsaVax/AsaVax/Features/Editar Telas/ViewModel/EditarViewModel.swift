@@ -26,13 +26,13 @@ class EditarViewModel {
                             tipoDeAtividade: .vacinacao,
                             date: Date(),
                             lembrete: "30 min antes",
-                            descricao: "Vacinar todas as 200 galinhas do lote X. A vacina será contra a doença YYY e serão realizadas de maneira organizada pelos médicos responsáveis.")
+                            descricao: "Vacinar todas as 200 galinhas do lote X. A vacina será contra a doença YYY e serão realizadas de maneira organizada pelos médicos responsáveis.", isConcluded: false)
         self.tarefaEditada = .init(title: "Vacinar as galinhas",
                                    loteName: "Lote X",
                                    tipoDeAtividade: .vacinacao,
                                    date: Date(),
                                    lembrete: "30 min antes",
-                                   descricao: "Vacinar todas as 200 galinhas do lote X. A vacina será contra a doença YYY e serão realizadas de maneira organizada pelos médicos responsáveis.")
+                                   descricao: "Vacinar todas as 200 galinhas do lote X. A vacina será contra a doença YYY e serão realizadas de maneira organizada pelos médicos responsáveis.", isConcluded: false)
     }
     
     func pegarTodosOsLotes() -> [Batch] {

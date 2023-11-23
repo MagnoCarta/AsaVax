@@ -16,6 +16,8 @@ struct Tarefa: StructDecoder, Hashable {
     var date: Date
     var lembrete: String
     var descricao: String
+    var isConcluded: Bool
+    
 }
 
 enum TipoDeAtividade: String, CaseIterable {

@@ -19,6 +19,18 @@
 		0F964CBB2B0EF0BD007CD2A9 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 0F964CBA2B0EF0BD007CD2A9 /* Flow */; };
 		0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */; };
 		0F964CCA2B0F2FF0007CD2A9 /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CC92B0F2FF0007CD2A9 /* Tarefa.swift */; };
+		0FD2168B2B0F5DF3003E6E06 /* CardTarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2168A2B0F5DF3003E6E06 /* CardTarefa.swift */; };
+		0FD2168D2B0F5E16003E6E06 /* ListaTarefasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2168C2B0F5E16003E6E06 /* ListaTarefasViewModel.swift */; };
+		0FD2168F2B0F5E3C003E6E06 /* ListaTarefasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2168E2B0F5E3C003E6E06 /* ListaTarefasView.swift */; };
+		0FD2169C2B0F703A003E6E06 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216942B0F5EF3003E6E06 /* Inter-Thin.ttf */; };
+		0FD2169D2B0F703A003E6E06 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216932B0F5EF3003E6E06 /* Inter-SemiBold.ttf */; };
+		0FD2169E2B0F703A003E6E06 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD2169A2B0F5EF3003E6E06 /* Inter-Bold.ttf */; };
+		0FD2169F2B0F703A003E6E06 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216992B0F5EF3003E6E06 /* Inter-Light.ttf */; };
+		0FD216A02B0F703A003E6E06 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216962B0F5EF3003E6E06 /* Inter-Black.ttf */; };
+		0FD216A12B0F703A003E6E06 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216972B0F5EF3003E6E06 /* Inter-ExtraBold.ttf */; };
+		0FD216A22B0F703A003E6E06 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216982B0F5EF3003E6E06 /* Inter-ExtraLight.ttf */; };
+		0FD216A32B0F703A003E6E06 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD2169B2B0F5EF3003E6E06 /* Inter-Medium.ttf */; };
+		0FD216A42B0F703A003E6E06 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216952B0F5EF3003E6E06 /* Inter-Regular.ttf */; };
 		49A545992B0F07720050A416 /* Atividades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A545982B0F07720050A416 /* Atividades.swift */; };
 		49A5459B2B0F242C0050A416 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5459A2B0F242C0050A416 /* TabBar.swift */; };
 		49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */; };
@@ -40,6 +52,19 @@
 		0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringDate+Convert.swift"; sourceTree = "<group>"; };
 		0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewModel.swift; sourceTree = "<group>"; };
 		0F964CC92B0F2FF0007CD2A9 /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
+		0FD2168A2B0F5DF3003E6E06 /* CardTarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTarefa.swift; sourceTree = "<group>"; };
+		0FD2168C2B0F5E16003E6E06 /* ListaTarefasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTarefasViewModel.swift; sourceTree = "<group>"; };
+		0FD2168E2B0F5E3C003E6E06 /* ListaTarefasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTarefasView.swift; sourceTree = "<group>"; };
+		0FD216902B0F5E51003E6E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0FD216932B0F5EF3003E6E06 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		0FD216942B0F5EF3003E6E06 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Thin.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		0FD216952B0F5EF3003E6E06 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		0FD216962B0F5EF3003E6E06 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Black.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Black.ttf"; sourceTree = "<group>"; };
+		0FD216972B0F5EF3003E6E06 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-ExtraBold.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0FD216982B0F5EF3003E6E06 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-ExtraLight.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0FD216992B0F5EF3003E6E06 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Light.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Light.ttf"; sourceTree = "<group>"; };
+		0FD2169A2B0F5EF3003E6E06 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Bold.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		0FD2169B2B0F5EF3003E6E06 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		49A545982B0F07720050A416 /* Atividades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atividades.swift; sourceTree = "<group>"; };
 		49A5459A2B0F242C0050A416 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
@@ -87,6 +112,7 @@
 		0F964C942B0ED9B3007CD2A9 /* AsaVax */ = {
 			isa = PBXGroup;
 			children = (
+				0FD216902B0F5E51003E6E06 /* Info.plist */,
 				49A5459A2B0F242C0050A416 /* TabBar.swift */,
 				49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */,
 				49A545982B0F07720050A416 /* Atividades.swift */,
@@ -147,6 +173,7 @@
 		0F964CA72B0EDA06007CD2A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0FD216922B0F5EE3003E6E06 /* Fontes */,
 				0F964C992B0ED9B4007CD2A9 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -155,6 +182,7 @@
 		0F964CA82B0EDA15007CD2A9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0FD216862B0F5DD5003E6E06 /* ListaTarefas */,
 				4C6DEECC2B0F2FA900260F16 /* Editar Telas */,
 				0DD039712B0F00F700226D70 /* Listas de Cards */,
 				0F964CBC2B0EF927007CD2A9 /* Cadastro */,
@@ -187,27 +215,54 @@
 			path = Cadastro;
 			sourceTree = "<group>";
 		};
-		0F964CC42B0F2F47007CD2A9 /* ListaTarefas */ = {
+		0FD216862B0F5DD5003E6E06 /* ListaTarefas */ = {
 			isa = PBXGroup;
 			children = (
-				0F964CC82B0F2FAC007CD2A9 /* View */,
-				0F964CC72B0F2F5B007CD2A9 /* ViewModel */,
+				0FD216892B0F5DEA003E6E06 /* Components */,
+				0FD216882B0F5DE0003E6E06 /* ViewModel */,
+				0FD216872B0F5DDC003E6E06 /* View */,
 			);
 			path = ListaTarefas;
 			sourceTree = "<group>";
 		};
-		0F964CC72B0F2F5B007CD2A9 /* ViewModel */ = {
+		0FD216872B0F5DDC003E6E06 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0FD2168E2B0F5E3C003E6E06 /* ListaTarefasView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FD216882B0F5DE0003E6E06 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FD2168C2B0F5E16003E6E06 /* ListaTarefasViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		0F964CC82B0F2FAC007CD2A9 /* View */ = {
+		0FD216892B0F5DEA003E6E06 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				0FD2168A2B0F5DF3003E6E06 /* CardTarefa.swift */,
 			);
-			path = View;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0FD216922B0F5EE3003E6E06 /* Fontes */ = {
+			isa = PBXGroup;
+			children = (
+				0FD216962B0F5EF3003E6E06 /* Inter-Black.ttf */,
+				0FD2169A2B0F5EF3003E6E06 /* Inter-Bold.ttf */,
+				0FD216972B0F5EF3003E6E06 /* Inter-ExtraBold.ttf */,
+				0FD216982B0F5EF3003E6E06 /* Inter-ExtraLight.ttf */,
+				0FD216992B0F5EF3003E6E06 /* Inter-Light.ttf */,
+				0FD2169B2B0F5EF3003E6E06 /* Inter-Medium.ttf */,
+				0FD216952B0F5EF3003E6E06 /* Inter-Regular.ttf */,
+				0FD216932B0F5EF3003E6E06 /* Inter-SemiBold.ttf */,
+				0FD216942B0F5EF3003E6E06 /* Inter-Thin.ttf */,
+			);
+			path = Fontes;
 			sourceTree = "<group>";
 		};
 		4C6DEECA2B0F039E00260F16 /* ViewModel */ = {
@@ -315,8 +370,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD2169D2B0F703A003E6E06 /* Inter-SemiBold.ttf in Resources */,
+				0FD2169E2B0F703A003E6E06 /* Inter-Bold.ttf in Resources */,
 				0F964C9D2B0ED9B4007CD2A9 /* Preview Assets.xcassets in Resources */,
+				0FD216A12B0F703A003E6E06 /* Inter-ExtraBold.ttf in Resources */,
 				0F964C9A2B0ED9B4007CD2A9 /* Assets.xcassets in Resources */,
+				0FD2169F2B0F703A003E6E06 /* Inter-Light.ttf in Resources */,
+				0FD2169C2B0F703A003E6E06 /* Inter-Thin.ttf in Resources */,
+				0FD216A22B0F703A003E6E06 /* Inter-ExtraLight.ttf in Resources */,
+				0FD216A42B0F703A003E6E06 /* Inter-Regular.ttf in Resources */,
+				0FD216A32B0F703A003E6E06 /* Inter-Medium.ttf in Resources */,
+				0FD216A02B0F703A003E6E06 /* Inter-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,13 +399,16 @@
 				0F964CAD2B0EDB2B007CD2A9 /* StructDecoder.swift in Sources */,
 				0F964CCA2B0F2FF0007CD2A9 /* Tarefa.swift in Sources */,
 				0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */,
+				0FD2168B2B0F5DF3003E6E06 /* CardTarefa.swift in Sources */,
 				4C6DEED22B0F303700260F16 /* EditarViewModel.swift in Sources */,
 				0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */,
+				0FD2168D2B0F5E16003E6E06 /* ListaTarefasViewModel.swift in Sources */,
 				0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */,
 				49A5459B2B0F242C0050A416 /* TabBar.swift in Sources */,
 				49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */,
 				0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */,
 				4C6DEECE2B0F2FF500260F16 /* EditarView.swift in Sources */,
+				0FD2168F2B0F5E3C003E6E06 /* ListaTarefasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +544,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AsaVax/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsaVax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -505,6 +573,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AsaVax/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsaVax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

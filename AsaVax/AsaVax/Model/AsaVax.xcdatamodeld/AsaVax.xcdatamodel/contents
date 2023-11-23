@@ -4,17 +4,18 @@
         <attribute name="absoluteMortality" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="genero" optional="YES" attributeType="String"/>
-        <attribute name="medicineApplied" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="medicineApplied" optional="YES" attributeType="String" customClassName="[NSString]"/>
         <attribute name="mortalityFrequency" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="mortalityRate" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="numberBought" optional="YES" attributeType="String"/>
         <attribute name="tipo" optional="YES" attributeType="String"/>
-        <attribute name="vaxDone" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="vaxDone" optional="YES" attributeType="String" customClassName="[NSString]"/>
     </entity>
     <entity name="TarefaModel" representedClassName="TarefaModel" syncable="YES" codeGenerationType="class">
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="descricao" optional="YES" attributeType="String"/>
+        <attribute name="isConcluded" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="lembrete" optional="YES" attributeType="String" customClassName="Lembrete"/>
         <attribute name="lote" optional="YES" attributeType="String" customClassName="Batch"/>
         <attribute name="tipoDeAtividade" optional="YES" attributeType="String"/>

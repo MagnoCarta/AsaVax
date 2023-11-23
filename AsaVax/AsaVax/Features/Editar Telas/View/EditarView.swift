@@ -56,9 +56,10 @@ struct EditarView: View {
                     Spacer()
                     Button(action: {
                         viewModel.deleteTarefa()
+                        dismiss()
                     }, label: {
                         RoundedRectangle(cornerSize: CGSize(width: 12, height: 12))
-                            .foregroundStyle(.blue)
+                            .foregroundStyle(.auxiliarError)
                             .frame(maxWidth: .infinity, maxHeight: 50).overlay {
                                 Text(Constantes.delete)
                                     .foregroundStyle(.white)

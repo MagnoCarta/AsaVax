@@ -21,8 +21,8 @@ class CadastroViewModel {
     }
     
     init() {
-        self.batch = .init(name: "", date: Date(), numberBought: "", vaxDone: [], medicineApplied: [], absoluteMortality: 1, tipo: .corte, genero: .femea)
-        self.editedBatch = .init(name: "", date: Date(), numberBought: "", vaxDone: [], medicineApplied: [], absoluteMortality: 1, tipo: .corte, genero: .femea)
+        self.batch = .init(name: "", date: Date(), numberBought: "", vaxDone: "", medicineApplied: "", absoluteMortality: 1, tipo: .corte, genero: .femea)
+        self.editedBatch = .init(name: "", date: Date(), numberBought: "", vaxDone: "", medicineApplied: "", absoluteMortality: 1, tipo: .corte, genero: .femea)
         
     }
     
