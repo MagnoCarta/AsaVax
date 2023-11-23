@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="22G74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
     <entity name="BatchModel" representedClassName="BatchModel" syncable="YES" codeGenerationType="class">
         <attribute name="absoluteMortality" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
@@ -11,5 +11,13 @@
         <attribute name="numberBought" optional="YES" attributeType="String"/>
         <attribute name="tipo" optional="YES" attributeType="String"/>
         <attribute name="vaxDone" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+    </entity>
+    <entity name="TarefaModel" representedClassName="TarefaModel" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="descricao" optional="YES" attributeType="String"/>
+        <attribute name="lembrete" optional="YES" attributeType="String" customClassName="Lembrete"/>
+        <attribute name="lote" optional="YES" attributeType="String" customClassName="Batch"/>
+        <attribute name="tipoDeAtividade" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
     </entity>
 </model>

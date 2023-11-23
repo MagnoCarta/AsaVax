@@ -36,6 +36,29 @@ class CoreDataService {
         }
     }
     
+    func getTarefas() -> [Tarefa] {
+        let entitiesFetchRequest = getTarefaFetchRequest()
+        do {
+            let entities = try context.fetch(entitiesFetchRequest)
+            return convertToTarefa(entities: entities)
+        } catch {
+            return []
+        }
+    }
+    
+    func convertToTarefa(entities: [TarefaModel]) -> [Tarefa] {
+        var convertedEntities: [Tarefa] = []
+        convertedEntities = entities.map({
+            Tarefa(title: $0.title ?? "",
+                   loteName: $0.lote ?? "",
+                   tipoDeAtividade: TipoDeAtividade(rawValue: $0.tipoDeAtividade ?? "consulta") ?? .consulta,
+                   date: $0.date ?? Date(),
+                   lembrete: $0.lembrete ?? "",
+                   descricao: $0.descricao ?? "")
+        })
+        return convertedEntities
+    }
+    
     func convertToBatch(entities: [BatchModel]) -> [Batch] {
         var convertedEntities: [Batch] = []
         convertedEntities = entities.map({
@@ -62,6 +85,11 @@ class CoreDataService {
     
     private func getBatchFetchRequest() -> NSFetchRequest<BatchModel> {
         let entitiesFetchRequest = NSFetchRequest<BatchModel>(entityName: Batch.entityName)
+        return entitiesFetchRequest
+    }
+    
+    private func getTarefaFetchRequest() -> NSFetchRequest<TarefaModel> {
+        let entitiesFetchRequest = NSFetchRequest<TarefaModel>(entityName: Tarefa.entityName)
         return entitiesFetchRequest
     }
     
