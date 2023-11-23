@@ -40,11 +40,13 @@ class CoreDataService {
         var convertedEntities: [Batch] = []
         convertedEntities = entities.map({
             Batch(name: $0.name ?? "No Name",
-                  date: $0.date ?? "11/11/11",
-                  numberBought: Int($0.numberBought),
+                  date: $0.date ?? Date(),
+                  numberBought: $0.numberBought ?? "0",
                   vaxDone: $0.vaxDone ?? [],
                   medicineApplied: $0.medicineApplied ?? [],
-                  absoluteMortality: Int($0.absoluteMortality))
+                  absoluteMortality: Int($0.absoluteMortality),
+                  tipo: TipoDoLote(rawValue: $0.tipo ?? "corte") ?? .corte,
+                  genero: Genero(rawValue: $0.genero ?? "misto") ?? .misto)
         })
         return convertedEntities
     }
@@ -60,8 +62,6 @@ class CoreDataService {
     
     private func getBatchFetchRequest() -> NSFetchRequest<BatchModel> {
         let entitiesFetchRequest = NSFetchRequest<BatchModel>(entityName: Batch.entityName)
-        let descriptor = NSSortDescriptor(key: "toTime", ascending: true)
-        entitiesFetchRequest.sortDescriptors = [descriptor]
         return entitiesFetchRequest
     }
     
@@ -73,7 +73,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "SleepApp")
+        container = NSPersistentContainer(name: "AsaVax")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
