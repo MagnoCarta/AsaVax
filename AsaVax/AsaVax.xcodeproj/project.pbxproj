@@ -16,6 +16,7 @@
 		0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB02B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld */; };
 		0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */; };
 		0F964CB82B0EE527007CD2A9 /* placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB72B0EE527007CD2A9 /* placeholder.swift */; };
+		0F964CBB2B0EF0BD007CD2A9 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 0F964CBA2B0EF0BD007CD2A9 /* Flow */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F964CBB2B0EF0BD007CD2A9 /* Flow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +172,9 @@
 			dependencies = (
 			);
 			name = AsaVax;
+			packageProductDependencies = (
+				0F964CBA2B0EF0BD007CD2A9 /* Flow */,
+			);
 			productName = AsaVax;
 			productReference = 0F964C922B0ED9B3007CD2A9 /* AsaVax.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +203,9 @@
 				Base,
 			);
 			mainGroup = 0F964C892B0ED9B3007CD2A9;
+			packageReferences = (
+				0F964CB92B0EF0BD007CD2A9 /* XCRemoteSwiftPackageReference "flow" */,
+			);
 			productRefGroup = 0F964C932B0ED9B3007CD2A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -434,6 +442,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F964CB92B0EF0BD007CD2A9 /* XCRemoteSwiftPackageReference "flow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pedro0x53/flow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F964CBA2B0EF0BD007CD2A9 /* Flow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F964CB92B0EF0BD007CD2A9 /* XCRemoteSwiftPackageReference "flow" */;
+			productName = Flow;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0F964CB02B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld */ = {

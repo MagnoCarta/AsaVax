@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "flow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pedro0x53/flow",
+      "state" : {
+        "revision" : "e8977c962ce4fd13d367f5806fb97db6a2cc7be8",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
