@@ -20,6 +20,7 @@
 		0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */; };
 		0F964CCA2B0F2FF0007CD2A9 /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CC92B0F2FF0007CD2A9 /* Tarefa.swift */; };
 		49A545992B0F07720050A416 /* Atividades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A545982B0F07720050A416 /* Atividades.swift */; };
+		49A5459B2B0F242C0050A416 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5459A2B0F242C0050A416 /* TabBar.swift */; };
 		49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */; };
 		4C6DEEC92B0F039100260F16 /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DEEC82B0F039100260F16 /* CadastroView.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewModel.swift; sourceTree = "<group>"; };
 		0F964CC92B0F2FF0007CD2A9 /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
 		49A545982B0F07720050A416 /* Atividades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atividades.swift; sourceTree = "<group>"; };
+		49A5459A2B0F242C0050A416 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
 		4C6DEEC82B0F039100260F16 /* CadastroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 		0F964C942B0ED9B3007CD2A9 /* AsaVax */ = {
 			isa = PBXGroup;
 			children = (
+				49A5459A2B0F242C0050A416 /* TabBar.swift */,
 				49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */,
 				49A545982B0F07720050A416 /* Atividades.swift */,
 				0F964CA82B0EDA15007CD2A9 /* Features */,
@@ -305,6 +308,7 @@
 				0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */,
 				0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */,
 				0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */,
+				49A5459B2B0F242C0050A416 /* TabBar.swift in Sources */,
 				49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */,
 				0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */,
 			);
