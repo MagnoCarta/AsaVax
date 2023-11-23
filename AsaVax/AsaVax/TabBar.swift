@@ -11,12 +11,12 @@ struct TabBar: View {
     @State var selectedTab = 0
     var body: some View {
         TabView (selection: $selectedTab) {
-                    Atividades()
+            ListaTarefasView(viewModel: .init())
                         .tabItem{
                             Image("Calendario")
                                 
                        } .tag(0)
-                   SegmentPicker()
+            ListaDeCards(viewModel: .init())
                         .tabItem{
                             Image(systemName: "clock")
                                 

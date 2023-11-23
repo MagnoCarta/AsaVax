@@ -13,7 +13,7 @@ struct AsaVaxApp: App {
     @State var a: Bool = true
     var body: some Scene {
         WindowGroup {
-            ListaTarefasView(viewModel: .init())
+            TabBar()
         }
     }
 }

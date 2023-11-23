@@ -9,65 +9,55 @@ import SwiftUI
 
 struct CardLotes: View {
     
-    let loteTitle: String
-    let loteTitle2: String
-    let loteTitle3: String
-    let loteImage: Image
-    let loteImage2: Image
-    
-    
-    init(loteTitle: String, loteTitle2: String, loteTitle3: String, loteImage: Image, loteImage2: Image) {
-        self.loteTitle = loteTitle
-        self.loteTitle2 = loteTitle2
-        self.loteTitle3 = loteTitle3
-        self.loteImage = loteImage
-        self.loteImage2 = loteImage2
-        
-    }
+    let lote: Batch
     
     var body: some View {
-        Form {
-            ZStack (alignment: .trailing){
+        RoundedRectangle(cornerSize: CGSize(width: 12, height: 12))
+            .foregroundStyle(.neutral700)
+            .frame(maxWidth: .infinity)
+            .frame(height: 100)
+            .overlay {
                 HStack {
-                    loteImage
+                    Image(.galinha1)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 64, height: 64)
+                        .padding()
+                    
                     
                     VStack(alignment: .leading){
                         
-                        Text(loteTitle)
-                            .font(.title3)
+                        Text(lote.name)
+                            .font(.custom("Inter", size: 16))
+                            .fontWeight(.bold)
                             .multilineTextAlignment(.leading)
-                            .foregroundColor(.black)
+                            .foregroundColor(.neutral50)
                             .padding(.trailing)
                         
-                        Text(loteTitle2)
+                        Text("\(lote.numberBought) galinhas")
+                            .font(.custom("Inter-SemiBold", size: 14))
+                            .fontWeight(.semibold)
                             .multilineTextAlignment(.leading)
-                            .foregroundColor(.black)
+                            .foregroundColor(.neutral50)
                         
                     }
                     Spacer()
-                    ZStack {
-                        HStack {
-                            Text(loteTitle3)
-                                .multilineTextAlignment(.trailing)
-                            //    .padding(.trailing)
-                                .foregroundColor(.black)
-                                .font(.system(size: 14))
-                            
-                            
-                            loteImage2
-                            
-                                .frame(width: 24, height: 24)
-                        }
+                    HStack {
+                        Text(lote.date.dateStringISOFormat())
+                            .font(.custom("Inter-SemiBold", size: 14))
+                            .fontWeight(.semibold)
+                            .foregroundColor(.neutral50)
+                        
+                        Image(.flecha)
+                        
+                            .frame(width: 24, height: 24)
                     }
+                    .padding(.trailing)
                 }
             }
-        }
     }
 }
 
 #Preview {
-    CardLotes(loteTitle: "Lote 01", loteTitle2 :"200 galinhas", loteTitle3: "24/09/22", loteImage: Image("galinha1"), loteImage2: Image("flecha"))
+    CardLotes(lote: .init(name: "Lote X", date: .now, numberBought: "200", vaxDone: "5", medicineApplied: "6", tipo: .corte, genero: .femea))
 }

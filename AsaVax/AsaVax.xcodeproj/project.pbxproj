@@ -31,6 +31,8 @@
 		0FD216A22B0F703A003E6E06 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216982B0F5EF3003E6E06 /* Inter-ExtraLight.ttf */; };
 		0FD216A32B0F703A003E6E06 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD2169B2B0F5EF3003E6E06 /* Inter-Medium.ttf */; };
 		0FD216A42B0F703A003E6E06 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216952B0F5EF3003E6E06 /* Inter-Regular.ttf */; };
+		0FD216A62B0F8F3D003E6E06 /* ListaDeCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD216A52B0F8F3D003E6E06 /* ListaDeCards.swift */; };
+		0FD216A82B0F8F5F003E6E06 /* ListaDeCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD216A72B0F8F5F003E6E06 /* ListaDeCardsViewModel.swift */; };
 		49A545992B0F07720050A416 /* Atividades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A545982B0F07720050A416 /* Atividades.swift */; };
 		49A5459B2B0F242C0050A416 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5459A2B0F242C0050A416 /* TabBar.swift */; };
 		49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */; };
@@ -65,6 +67,8 @@
 		0FD216992B0F5EF3003E6E06 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Light.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Light.ttf"; sourceTree = "<group>"; };
 		0FD2169A2B0F5EF3003E6E06 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Bold.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		0FD2169B2B0F5EF3003E6E06 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		0FD216A52B0F8F3D003E6E06 /* ListaDeCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeCards.swift; sourceTree = "<group>"; };
+		0FD216A72B0F8F5F003E6E06 /* ListaDeCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeCardsViewModel.swift; sourceTree = "<group>"; };
 		49A545982B0F07720050A416 /* Atividades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atividades.swift; sourceTree = "<group>"; };
 		49A5459A2B0F242C0050A416 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				0DD039742B0F01BB00226D70 /* CardLotes.swift */,
+				0FD216A52B0F8F3D003E6E06 /* ListaDeCards.swift */,
+				0FD216A72B0F8F5F003E6E06 /* ListaDeCardsViewModel.swift */,
 			);
 			path = "Listas de Cards";
 			sourceTree = "<group>";
@@ -392,9 +398,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F964CAF2B0EDB99007CD2A9 /* Batch.swift in Sources */,
+				0FD216A62B0F8F3D003E6E06 /* ListaDeCards.swift in Sources */,
 				0DD039752B0F01BB00226D70 /* CardLotes.swift in Sources */,
 				4C6DEEC92B0F039100260F16 /* CadastroView.swift in Sources */,
 				0F964CAB2B0EDAEA007CD2A9 /* CoreDataService.swift in Sources */,
+				0FD216A82B0F8F5F003E6E06 /* ListaDeCardsViewModel.swift in Sources */,
 				49A545992B0F07720050A416 /* Atividades.swift in Sources */,
 				0F964CAD2B0EDB2B007CD2A9 /* StructDecoder.swift in Sources */,
 				0F964CCA2B0F2FF0007CD2A9 /* Tarefa.swift in Sources */,

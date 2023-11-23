@@ -15,8 +15,18 @@ class CoreDataService {
     
     private init() {}
     
-    func saveEntities<T: StructDecoder>(entities: any Sequence<T>) {
+    func saveBatchs<T: StructDecoder>(entities: any Sequence<T>) {
         getFetchs().forEach { context.delete($0) }
+        entities.forEach { _ = try? $0.toCoreData(context: context) }
+        do {
+            try context.save()
+        } catch {
+            print("It was not possible to save the context")
+            print(error)
+        }
+    }
+    
+    func saveTarefas<T: StructDecoder>(entities: any Sequence<T>) {
         getTarefaFetchs().forEach { context.delete($0) }
         entities.forEach { _ = try? $0.toCoreData(context: context) }
         do {

@@ -44,13 +44,13 @@ class EditarViewModel {
         var tarefas = Set(coredataService.getTarefas())
         tarefas.remove(tarefa)
         tarefas.insert(tarefaEditada)
-        coredataService.saveEntities(entities: tarefas)
+        coredataService.saveTarefas(entities: tarefas)
     }
     
     func deleteTarefa() {
         var tarefas = Set(coredataService.getTarefas())
         tarefas.remove(tarefa)
-        coredataService.saveEntities(entities: tarefas)
+        coredataService.saveTarefas(entities: tarefas)
     }
     
 }

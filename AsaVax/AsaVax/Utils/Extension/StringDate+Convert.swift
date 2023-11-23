@@ -10,7 +10,7 @@ import Foundation
 extension Date {
     func dateStringISOFormat() -> String {
             let dateFormatter = DateFormatter()
-            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+            dateFormatter.dateFormat = "yyyy-MM-dd"
             dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
             
             return dateFormatter.string(from: self)

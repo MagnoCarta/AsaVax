@@ -21,9 +21,9 @@ class CadastroViewModel {
     }
     
     init() {
-        self.batch = .init(name: "", date: Date(), numberBought: "", vaxDone: "", medicineApplied: "", absoluteMortality: 1, tipo: .corte, genero: .femea)
-        self.editedBatch = .init(name: "", date: Date(), numberBought: "", vaxDone: "", medicineApplied: "", absoluteMortality: 1, tipo: .corte, genero: .femea)
-        
+        let batch: Batch = .init(name: "", date: Date(), numberBought: "", vaxDone: "", medicineApplied: "", absoluteMortality: 1, tipo: .corte, genero: .femea)
+        self.batch = batch
+        self.editedBatch = batch
     }
     
     
@@ -31,13 +31,13 @@ class CadastroViewModel {
         var batchs = Set(coredataService.getBatchs())
         batchs.remove(batch)
         batchs.insert(editedBatch)
-        coredataService.saveEntities(entities: batchs)
+        coredataService.saveBatchs(entities: batchs)
     }
     
     func deleteBatch() {
         var batchs = Set(coredataService.getBatchs())
         batchs.remove(batch)
-        coredataService.saveEntities(entities: batchs)
+        coredataService.saveBatchs(entities: batchs)
     }
     
 }

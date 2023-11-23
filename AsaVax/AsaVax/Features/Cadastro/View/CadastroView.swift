@@ -47,9 +47,10 @@ struct CadastroView: View {
                     Spacer()
                     Button(action: {
                         viewModel.deleteBatch()
+                        dismiss()
                     }, label: {
                         RoundedRectangle(cornerSize: CGSize(width: 12, height: 12))
-                            .foregroundStyle(.blue)
+                            .foregroundStyle(.auxiliarError)
                             .frame(maxWidth: .infinity, maxHeight: 50).overlay {
                                 Text(Constants.delete)
                                     .foregroundStyle(.white)

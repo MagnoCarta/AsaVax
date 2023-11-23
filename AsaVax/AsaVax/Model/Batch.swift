@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct Batch: StructDecoder, Hashable {
+struct Batch: StructDecoder, Hashable, Identifiable {
+    var id: String { self.name }
+    
     static var entityName: String = "BatchModel"
     
     var name: String
