@@ -16,12 +16,12 @@ struct ListaDeCards: View {
             ScrollView {
                 VStack {
                     ForEach(viewModel.lotes) { lote in
-                        CardLotes(lote: lote)
-                            .padding(.horizontal,24)
-                            .onTapGesture {
-                                viewModel.isSheeting = true
-                                viewModel.loteClicado = lote
-                            }
+                        NavigationLink(destination: {
+                            LoteInformationView(price: .init(lote: lote), lote: lote)
+                        }, label: {
+                            CardLotes(lote: lote)
+                                .padding(.horizontal,24)
+                        })
                     }
                 }
             }

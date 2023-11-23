@@ -33,6 +33,7 @@
 		0FD216A42B0F703A003E6E06 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD216952B0F5EF3003E6E06 /* Inter-Regular.ttf */; };
 		0FD216A62B0F8F3D003E6E06 /* ListaDeCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD216A52B0F8F3D003E6E06 /* ListaDeCards.swift */; };
 		0FD216A82B0F8F5F003E6E06 /* ListaDeCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD216A72B0F8F5F003E6E06 /* ListaDeCardsViewModel.swift */; };
+		0FD216AD2B0F9B74003E6E06 /* LoteInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD216AC2B0F9B74003E6E06 /* LoteInformationView.swift */; };
 		49A545992B0F07720050A416 /* Atividades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A545982B0F07720050A416 /* Atividades.swift */; };
 		49A5459B2B0F242C0050A416 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5459A2B0F242C0050A416 /* TabBar.swift */; };
 		49AF5FAD2B0EFE1D00D89ED1 /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */; };
@@ -69,6 +70,7 @@
 		0FD2169B2B0F5EF3003E6E06 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		0FD216A52B0F8F3D003E6E06 /* ListaDeCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeCards.swift; sourceTree = "<group>"; };
 		0FD216A72B0F8F5F003E6E06 /* ListaDeCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeCardsViewModel.swift; sourceTree = "<group>"; };
+		0FD216AC2B0F9B74003E6E06 /* LoteInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoteInformationView.swift; sourceTree = "<group>"; };
 		49A545982B0F07720050A416 /* Atividades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atividades.swift; sourceTree = "<group>"; };
 		49A5459A2B0F242C0050A416 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		49AF5FAC2B0EFE1D00D89ED1 /* SegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		0F964CA82B0EDA15007CD2A9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0FD216AB2B0F9B58003E6E06 /* LoteInformation */,
 				0FD216862B0F5DD5003E6E06 /* ListaTarefas */,
 				4C6DEECC2B0F2FA900260F16 /* Editar Telas */,
 				0DD039712B0F00F700226D70 /* Listas de Cards */,
@@ -269,6 +272,14 @@
 				0FD216942B0F5EF3003E6E06 /* Inter-Thin.ttf */,
 			);
 			path = Fontes;
+			sourceTree = "<group>";
+		};
+		0FD216AB2B0F9B58003E6E06 /* LoteInformation */ = {
+			isa = PBXGroup;
+			children = (
+				0FD216AC2B0F9B74003E6E06 /* LoteInformationView.swift */,
+			);
+			path = LoteInformation;
 			sourceTree = "<group>";
 		};
 		4C6DEECA2B0F039E00260F16 /* ViewModel */ = {
@@ -402,6 +413,7 @@
 				0DD039752B0F01BB00226D70 /* CardLotes.swift in Sources */,
 				4C6DEEC92B0F039100260F16 /* CadastroView.swift in Sources */,
 				0F964CAB2B0EDAEA007CD2A9 /* CoreDataService.swift in Sources */,
+				0FD216AD2B0F9B74003E6E06 /* LoteInformationView.swift in Sources */,
 				0FD216A82B0F8F5F003E6E06 /* ListaDeCardsViewModel.swift in Sources */,
 				49A545992B0F07720050A416 /* Atividades.swift in Sources */,
 				0F964CAD2B0EDB2B007CD2A9 /* StructDecoder.swift in Sources */,
