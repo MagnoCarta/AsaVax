@@ -13,13 +13,13 @@ struct TabBar: View {
         TabView (selection: $selectedTab) {
             ListaTarefasView(viewModel: .init())
                         .tabItem{
-                            Image("Calendario")
-                                
+                            Image(.calendar)
+                                .tint(selectedTab == 0 ? .primary100 : .gray)
                        } .tag(0)
             ListaDeCards(viewModel: .init())
                         .tabItem{
-                            Image(systemName: "clock")
-                                
+                            Image(.barn)
+                                .tint(selectedTab == 1 ? .primary100 : .gray)
                                 
                         } .tag(1)
                     
