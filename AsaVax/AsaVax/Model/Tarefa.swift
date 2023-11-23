@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Tarefa: StructDecoder {
+struct Tarefa: StructDecoder, Hashable {
     static var entityName: String = "TarefaModel"
     
     var title: String
@@ -18,7 +18,7 @@ struct Tarefa: StructDecoder {
     var descricao: String
 }
 
-enum TipoDeAtividade: String {
+enum TipoDeAtividade: String, CaseIterable {
     case vacinacao = "Vacinação"
     case consulta = "Consulta"
     case alimentacao = "Alimentação"

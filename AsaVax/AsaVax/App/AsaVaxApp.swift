@@ -15,7 +15,7 @@ struct AsaVaxApp: App {
         WindowGroup {
             Text("a")
                 .sheet(isPresented: $a) {
-                    CadastroView(viewModel: .init())
+                    EditarView(viewModel: .init())
                 }
         }
     }
