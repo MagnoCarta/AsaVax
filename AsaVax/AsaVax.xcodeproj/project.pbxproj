@@ -17,6 +17,7 @@
 		0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */; };
 		0F964CB82B0EE527007CD2A9 /* placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CB72B0EE527007CD2A9 /* placeholder.swift */; };
 		0F964CBB2B0EF0BD007CD2A9 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 0F964CBA2B0EF0BD007CD2A9 /* Flow */; };
+		0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0F964CB12B0EDBF7007CD2A9 /* AsaVax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AsaVax.xcdatamodel; sourceTree = "<group>"; };
 		0F964CB42B0EDF7A007CD2A9 /* StringDate+Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringDate+Convert.swift"; sourceTree = "<group>"; };
 		0F964CB72B0EE527007CD2A9 /* placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeholder.swift; sourceTree = "<group>"; };
+		0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		0F964CA82B0EDA15007CD2A9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0F964CBC2B0EF927007CD2A9 /* POCCrudEditBatch */,
 				0F964CB62B0EE519007CD2A9 /* FeatureA */,
 			);
 			path = Features;
@@ -154,6 +157,14 @@
 				0F964CB72B0EE527007CD2A9 /* placeholder.swift */,
 			);
 			path = FeatureA;
+			sourceTree = "<group>";
+		};
+		0F964CBC2B0EF927007CD2A9 /* POCCrudEditBatch */ = {
+			isa = PBXGroup;
+			children = (
+				0F964CBE2B0EFA1E007CD2A9 /* CadastroViewModel.swift */,
+			);
+			path = POCCrudEditBatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +250,7 @@
 				0F964C962B0ED9B3007CD2A9 /* AsaVaxApp.swift in Sources */,
 				0F964CB22B0EDBF7007CD2A9 /* AsaVax.xcdatamodeld in Sources */,
 				0F964CB52B0EDF7A007CD2A9 /* StringDate+Convert.swift in Sources */,
+				0F964CBF2B0EFA1E007CD2A9 /* CadastroViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
